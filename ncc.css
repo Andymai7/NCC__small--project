@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Container */
+
+.container {
+    display: flex;
+   
+}
+
+/* Sidebar */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 935px;
+    background: #191718;
+    width: 150px;
+    flex-basis: 10%;
+}
+
+.sidebar__wrap {
+
+}
+
+.nav__home {
+    border-bottom: 1px solid #5C5C5C;
+    height: 44px;
+    line-height: 44px;
+}
+
+.nav__home a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 14px;
+    width: 100%;
+}
+
+.nav__list {
+    border-bottom: 1px solid #5C5C5C;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+}
+
+.nav__list a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 14px;
+    width: 100%;
+}
+
+.nav__list li a:hover, 
+.nav__home a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Content */
+
+.main {
+  flex-basis: 90%;
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  left: 150px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header__wrap {
+    margin: 10px 20px;
+}
+
+.header__wrap img {
+    width: 200px;
+    vertical-align: middle;
+    padding: 20px 0px;
+}
+
+/* Content - Group 1 */
+.content__group1 {
+    background-color: #EFEFEF;
+    /* margin: 30px 80px 20px 80px; */
+    margin: 0 80px;
+    padding: 20px 0;
+}
+.group1__title  h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.group1__title  p {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    /* padding-bottom: 20px; */
+}
+
+
+/* group2 - content */
+
+.content__group2--wrap {
+    margin: 10px 80px;
+}
+.group2-content{
+    margin-top: 36px;
+    padding: 12px 0;
+    display: flex;
+}
+
+.group-item {
+    flex-basis: 33,3333%;
+}
+
+.group-item p {
+    padding: 10px 0px;
+}
+.group-item p img {
+    width: 30%;
+    float: left;
+}
+
+.footer {
+    height: 79px;
+}
+
+.footer p {
+    color: #3e3e3e;
+    padding: 10px 80px;
+}
+
